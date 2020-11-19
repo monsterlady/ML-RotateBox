@@ -563,29 +563,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 7.169, y: 0, z: 0}
---- !u!1001 &1002233949
+--- !u!1001 &1503880374
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2175773674273050582, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: scoreHistory
-      value: 
-      objectReference: {fileID: 368964591}
-    - target: {fileID: 2455964360617667765, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: scoreHistory
-      value: 
-      objectReference: {fileID: 368964591}
+    - target: {fileID: 524888249, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
+      propertyPath: rotateDegree
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSpaceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2602616162334207856, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Name
       value: RotateBox
       objectReference: {fileID: 0}
-    - target: {fileID: 3824202723483854902, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: scoreHistory
-      value: 
-      objectReference: {fileID: 368964591}
     - target: {fileID: 8739120491734009009, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -630,8 +626,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -6852674621051722255, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
 --- !u!1 &1925979987
 GameObject:

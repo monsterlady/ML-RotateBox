@@ -5,27 +5,25 @@ using UnityEngine;
 
 public class DetectHandler : MonoBehaviour
 {
-    public ScoreHistory scoreHistory;
-
     void OnCollisionEnter(Collision other)
     {
-        Debug.Log(other.gameObject.name + " " + name);
-
         if (gameObject.tag.Equals("Fail"))
         {
             //TODO decrease award
-            
-            transform.parent.GetComponent<RotateController>().OnRest();
+            transform.parent.GetComponent<RotateController>().AddReward(-1f);
+            //
+            transform.parent.GetComponent<RotateController>().EndEpisode();
         } else if (gameObject.tag.Equals("Success"))
         {
             //TODO increase award
-            
+            transform.parent.GetComponent<RotateController>().AddReward(0.1f);
+            //
             transform.parent.GetComponent<RotateController>().Score += 1;
-            if (transform.parent.GetComponent<RotateController>().Score > scoreHistory.Highscore)
+            if (transform.parent.GetComponent<RotateController>().Score > ScoreHistory.Instance.Highscore)
             {
-                scoreHistory.Highscore = transform.parent.GetComponent<RotateController>().Score;
+                ScoreHistory.Instance.Highscore = transform.parent.GetComponent<RotateController>().Score;
             }
-            transform.parent.GetComponent<RotateController>().OnRest();
+            transform.parent.GetComponent<RotateController>().EndEpisode();
         }
     }
 }
