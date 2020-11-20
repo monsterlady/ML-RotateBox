@@ -9,10 +9,10 @@ using UnityEngine;
 public class RotateController : Agent
 {
 
-    [SerializeField] private float rotateDegree;
-    [SerializeField] private KeyCode left;
-    [SerializeField] private KeyCode right;
-    [SerializeField] private GameObject[] checkpoints;
+    [SerializeField] public float rotateDegree;
+    [SerializeField] public KeyCode left;
+    [SerializeField] public KeyCode right;
+    [SerializeField] public GameObject[] checkpoints;
     private Quaternion boxStartingRot;
     private Quaternion ballStartingRot;
     private Vector3 ballStartingPos;

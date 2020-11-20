@@ -1163,25 +1163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 10
   TakeActionsBetweenDecisions: 1
---- !u!1 &1046384167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2602616162334207856, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-  m_PrefabInstance: {fileID: 1503880374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1046384168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046384167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DecisionPeriod: 10
-  TakeActionsBetweenDecisions: 1
 --- !u!1001 &1503880374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1189,30 +1170,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSize.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSpaceType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_InferenceDevice
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSize.Array.data[1]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSize.Array.data[0]
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2602616162334207856, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Name
       value: RotateBox
