@@ -292,7 +292,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -392,7 +392,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -492,7 +492,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -794,7 +794,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -894,7 +894,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -1077,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -1196,7 +1196,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -1277,7 +1277,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
@@ -1377,7 +1377,7 @@ PrefabInstance:
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 6fc9168870d72094c8580bd81fe982ea, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 26c74afbc6c32364ea8ecdd5cba1d71d, type: 3}
     - target: {fileID: 1510383404, guid: 635e9510e2d363e48a7dd5f699d15f51, type: 3}
       propertyPath: m_BrainParameters.VectorActionSpaceType
       value: 0
