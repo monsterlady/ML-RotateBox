@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Barracuda;
 using Unity.MLAgents;
@@ -11,6 +12,7 @@ public class RotateController : Agent
     [SerializeField] private float rotateDegree;
     [SerializeField] private KeyCode left;
     [SerializeField] private KeyCode right;
+    [SerializeField] private GameObject[] checkpoints;
     private Quaternion boxStartingRot;
     private Quaternion ballStartingRot;
     private Vector3 ballStartingPos;
@@ -25,8 +27,8 @@ public class RotateController : Agent
         boxStartingRot = transform.rotation;
         ballStartingPos = rBody.transform.position;
     }
-
-    public override void Heuristic(float[] actionsOut)
+        
+        public override void Heuristic(float[] actionsOut)
     {
         actionsOut[0] = 0;
         if (Input.GetKey(left))
@@ -42,23 +44,28 @@ public class RotateController : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(rBody.transform.localPosition);
-        sensor.AddObservation(Vector2.zero);
         sensor.AddObservation(rBody.velocity);
+        sensor.AddObservation(transform.rotation);
     }
 
     public override void OnActionReceived(float[] vectorAction)
     {
+        
         if (Mathf.FloorToInt(vectorAction[0]) == 1)
         {
-            RotateLeft();
+           RotateLeft();
         } else if (Mathf.FloorToInt(vectorAction[0]) == 2)
         {
             RotateRight();
-        }
+        } 
     }
-
+    
     public override void OnEpisodeBegin()
     {
+        foreach (GameObject cp in checkpoints)
+        {
+            cp.SetActive(true);
+        }
         OnRest();
     }
     

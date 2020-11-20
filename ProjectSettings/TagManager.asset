@@ -7,6 +7,9 @@ TagManager:
   - Fail
   - Success
   - ScoreBoard
+  - Border
+  - CheckPoint
+  - Ball
   layers:
   - Default
   - TransparentFX
