@@ -13,7 +13,7 @@
 
 ## What is this Project?
 
-Very very first contact to AI and Mechine Learning in Unity. </br>Training hours : 26 hours in total</br> NN model Version 7 </br>Accuracy Rate: Avg 62.83%
+Very very first contact to AI and Mechine Learning in Unity. </br>Training hours : 26 hours in total</br> NN model Version 7 </br>Accuracy Rate: Avg 82.83%
 
 ### ✨ [webGL Demo](https://monsterlady.github.io/ML-RotateBox/)
 ![avatar](https://github.com/monsterlady/ML-RotateBox/blob/main/Assets/rotateboxdemo.gif)
